@@ -188,6 +188,11 @@ The shellcode can be compiled using `gcc -fno-stack-protector -z execstack shell
 In order to get a shell a listener needs to be set up on the attacking machine, on the port specified in the shellcode (here this port is 5555)
 
 By running the produced elf on the victim machine you get a working reverse_tcp_shell connection to the attacking machine!
+##### Victim's machine
+![img](https://github.com/lampnout/SLAE/blob/master/Assignment%202/slae%23%232con.PNG)
+
+##### Attacker's machine
+![img](https://github.com/lampnout/SLAE/blob/master/Assignment%202/slae%232.PNG)
 
 ## Statement
 This page has been created for completing the requirements of the SecurityTube Linux Assembly Expert certification:
