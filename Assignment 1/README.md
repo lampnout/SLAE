@@ -275,7 +275,7 @@ You can compile this code using `gcc -fno-stack-protector -z execstack shellcode
 By running the produced executable you have a working bind_tcp_shell on the port you specified!
 
 #### Proof of concept image
-
+![poc](https://github.com/lampnout/SLAE/blob/master/Assignment%201/SLAE%231.PNG)
 
 ## Statement
 This page has been created for completing the requirements of the SecurityTube Linux Assembly Expert certification:
