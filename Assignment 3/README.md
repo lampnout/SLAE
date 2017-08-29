@@ -193,7 +193,7 @@ $ ./shellcode \x31\xc9\xf7\xe1\x50\x68\x6e\x2f\x73\x68\x68\x2f\x2f\x62\x69\x89\x
 
 The execution of the elf shellcode provided the two arguments, will spawn an sh shell.
 
-/printscreen goes here.
+![img](https://github.com/lampnout/SLAE/blob/master/Assignment%203/assign%23%23%233.PNG)
 
 ## Statement
 This page has been created for completing the requirements of the SecurityTube Linux Assembly Expert certification:
