@@ -14,7 +14,7 @@ The encoder operates on a given shellcode placed in the buffer named _shellcode_
 
 Starting from the first byte of the shellcode, it is xor-ed with the byte - key. The next shellcode byte is xored with the right rotated key - byte. This process takes place until all the bytes of the shellcode are encoded.
 
-```
+```c
 #include<stdio.h>
 #include<stdint.h>
 #include<stdlib.h>
