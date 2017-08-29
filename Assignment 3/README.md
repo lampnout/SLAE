@@ -22,8 +22,7 @@ The implementation being studied here considers *sigaction* sys call. Its real p
 The sigaction function is prototyped as follows:
 
 ```c
-int sigaction(int signum, const struct sigaction *act,
-                     struct sigaction *oldact);
+int sigaction(int signum, const struct sigaction *act, struct sigaction *oldact);
 ```
 
 At this point, let's have a closer look at the registers during egghunter's execution:
