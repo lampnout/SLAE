@@ -280,6 +280,15 @@ int main(uint32_t argc, uint8_t **argv)
 }
 ```
 
+The code above can be found in _Assignement #7_ repo, named as _blowfish.c_
+
+You can compile this code using `gcc blowfish.c -o blowfish`
+
+A test run poc image follows.
+
+#### Proof of concept image
+![poc](https://github.com/lampnout/SLAE/blob/master/Assignment%207/blowfish.PNG)
+
 ## Statement
 This page has been created for completing the requirements of the SecurityTube Linux Assembly Expert certification:
 
